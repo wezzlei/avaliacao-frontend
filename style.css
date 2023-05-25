@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+:root {
+    --cor-principal: #8b4513;
+    --fonte-principal: 'Raleway', sans-serif;
+}
+
+.main {
+    width: 80%;
+}
+
+.titulo-pagina {
+    font-family: var(--fonte-principal);
+    margin: 40px auto 30px 20px 20px;
+    color: rgb(67, 68, 131);
+    font-size: 50px;
+    text-align: center;
+}
+
+.categoria-produtos {
+    font-size: 100%;
+    font-family: var(--fonte-principal);
+    background-color: rgb(25, 37, 148);
+    color: brown;
+    padding-left: 20px;
+    line-height: 3;
+    margin: 50px 10px 10px 10px;
+    flex-grow: nowrap;
+}
+
+.container-justify-space-between {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: rgb(196, 69, 196);
+    font-size: 25px;
+    list-style: none;
+    /* flex-wrap: nowrap; */
+}
+
+.footer {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    background-color: aqua;
+    color: rgb(14, 31, 31);
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .footer,
+    .banner-superior,
+    .categoria-produtos,
+    .container-justify-space-between,
+    .menu-navegacao,
+    .padrao-de-todas-imagens,
+    .subtitulo-pagina,
+    .subtitulo-sobrenos,
+    .titulo-pagina,
+    .main
+     {
+        background-color: blueviolet;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .footer,
+    .banner-superior,
+    .categoria-produtos,
+    .container-justify-space-between,
+    .menu-navegacao,
+    .padrao-de-todas-imagens,
+    .subtitulo-pagina,
+    .subtitulo-sobrenos,
+    .titulo-pagina,
+    .main
+     {
+        background-color: rgb(207, 190, 35);
+    }
+}
